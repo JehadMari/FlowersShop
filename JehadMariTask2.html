@@ -1,0 +1,185 @@
+<html>
+<head>
+    <style>
+        body {
+            background-image: url("images/background.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .head {
+            background-color: blueviolet;
+            height: 60px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+            .head li {
+                display: inline-block;
+                margin-top: 15px;
+                font-size: 20px;
+            }
+
+            .head a {
+                text-decoration: none;
+                color: white;
+                padding: 15px;
+                margin: 15px;
+            }
+
+        #logo {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        .tx {
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        .txt {
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+            .txt button {
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+
+        #sr, tr, td, th {
+            border: 3px blueviolet solid;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        #sr{
+            margin-bottom: 10px;
+        }
+
+        #pr, tr, td, th {
+            border: none;
+            text-align: center;
+        }
+
+        span {
+            display: inline-block;
+        }
+
+        .fo {
+            background-color: gray;
+            height: 280px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            overflow: hidden;
+        }
+
+            .fo li {
+                display: inline-block;
+                list-style-type: none;
+                margin: 10px;
+            }
+
+        .fra {
+            position: relative;
+            left: 650px;
+            bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <ul class="head" align="right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#pro">Products</a></li>
+            <li><a href="#ser">Services</a></li>
+            <li><a href="#co">Contact Us</a></li>
+        </ul>
+        <img src="images/logo.png" width="60" height="60" id="logo" />
+    </header>
+    <p align="center" class="tx">
+        Send Flowers and gifts.
+    </p>
+    <p align="center" class="tx">Buy for 100 JOD and Get free gift!</p>
+    <h1 align="center" class="tx">How to Buy?</h1>
+    <div align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BvWG6S347FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    <h1 id="pro" align="center" class="tx">Products</h1>
+    <table align="center" id="pr">
+        <tr>
+            <td><a href="#"><img src="images/1.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/2.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/3.png" width="350" height="350" /></a></td>
+        </tr>
+        <tr class="txt">
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 50 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 35 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 20 JOD</td>
+        </tr>
+        <tr>
+            <td><a href="#"><img src="images/4.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/5.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/6.png" width="350" height="350" /></a></td>
+        </tr>
+        <tr class="txt">
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 35 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 25 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 30 JOD</td>
+        </tr>
+        <tr>
+            <td><a href="#"><img src="images/7.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/8.png" width="350" height="350" /></a></td>
+            <td><a href="#"><img src="images/9.png" width="350" height="350" /></a></td>
+        </tr>
+        <tr class="txt">
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 30 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 25 JOD</td>
+            <td align="center"><button>Buy</button>&nbsp;&nbsp; 17 JOD</td>
+        </tr>
+    </table>
+    <h1 id="ser" class="tx" align="center">Our Services</h1>
+    <table align="center" id="sr">
+        <tr>
+            <td>Service</td>
+            <td>Cost</td>
+        </tr>
+        <tr>
+            <td>Delivery</td>
+            <td>3 JOD</td>
+        </tr>
+        <tr>
+            <td>Gift Packaging</td>
+            <td>5 JOD</td>
+        </tr>
+    </table>
+    <h1 id="co" class="tx" align="center">Contact Us</h1>
+
+    <footer>
+        <ul class="fo">
+            <li>
+                <form align="left" class="fo">
+                    <label for="name">Name:</label><br />
+                    <input type="text" name="name" id="name" /><br />
+                    <label for="birthday">Birthday:</label><br />
+                    <input type="date" name="birthday" id="birthday" /><br /><br />
+                    <span align="center">For more information call us on: 0799999999</span>
+                </form>
+            </li>
+            <li class="fra">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d54151.61656441327!2d35.92897965543015!3d31.975108542565497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d31.9750144!2d35.9268352!4m5!1s0x151ca171817ac971%3A0xd59c681a9eed0c34!2sabood%20flowers!3m2!1d31.9819021!2d35.859420799999995!5e0!3m2!1sar!2sjo!4v1642195227589!5m2!1sar!2sjo" width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
